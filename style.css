@@ -44,12 +44,14 @@ body {
 }
 
 h1 {
+    font-size: 2.3rem;
     font-family: var(--font-title);
     font-weight: 400;
     margin: 1.5rem 0 1rem 0;
 }
 
 h2 {
+    font-size: 1.7rem;
     font-family: var(--font-title);
     color: var(--color-brown-800);
     margin: 0 0 1rem 0;
@@ -71,7 +73,7 @@ header .title-img img {
 
 section.prep-time {
     margin: 1rem 0;
-    padding: 15px;
+    padding: 25px;
     background-color: var(--color-rose-50);
     border-radius: 10px;
 }
@@ -161,11 +163,12 @@ footer.attribution {
         font-size: 16px;
     }
     body {
-        align-items: start;   
+        align-items: start;
+        line-height: 1.7; 
     }
     .wrapper {
         min-height: 85vh;
-        margin: 100px 0;
+        margin: 110px 0;
         padding: 2rem;
     }
     
